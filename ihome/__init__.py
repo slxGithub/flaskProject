@@ -12,6 +12,7 @@ from ihome import api_1_0
 
 db = SQLAlchemy()
 redis_store = None
+
 # # 配置日志信息
 # # 设置日志的记录等级
 # logging.basicConfig(level=logging.INFO)
