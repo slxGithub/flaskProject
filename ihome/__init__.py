@@ -6,9 +6,10 @@ from flask import Flask
 from flask_session import Session
 from flask_sqlalchemy import SQLAlchemy
 from flask_wtf import CSRFProtect
+from ihome.utils import comments
 
 from config import config_map
-from ihome import api_1_0
+
 
 db = SQLAlchemy()
 redis_store = None
@@ -43,10 +44,15 @@ def create_app(config_name="develop"):
     Session(app)
     CSRFProtect(app)
 
+    app.url_map.converters["re"] = comments.ReConverter
     # 初始化redis
     global redis_store
     redis_store = redis.StrictRedis(host=config_class.REDIS_HOST, port=config_class.REDIS_PORT)
 
     # 注册蓝图
+    from ihome import api_1_0
     app.register_blueprint(api_1_0.api, url_prefix='/api/v1.0')
+
+    from ihome import web_html
+    app.register_blueprint(web_html.html)
     return app
