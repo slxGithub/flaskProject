@@ -54,7 +54,7 @@ function sendSMSCode() {
     };
 
     // 向后端发送请求
-    $.get("/api/v1.0/sms_codes/"+ mobile, req_data, function (resp) {
+    $.get("/api/v1.0/smscodes/"+ mobile, req_data, function (resp) {
         // resp是后端返回的响应值，因为后端返回的是json字符串，
         // 所以ajax帮助我们把这个json字符串转换为js对象，resp就是转换后对象
         if (resp.errno == "0") {

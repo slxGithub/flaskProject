@@ -12,15 +12,18 @@ appId = '8a216da85d158d1b015d65525d5c2301'
 serverIP = 'app.cloopen.com'
 # 说明：请求地址，生产环境配置成app.cloopen.com。
 
-serverPort = 8883
+serverPort = '8883'
 # 说明：请求端口 ，生产环境为8883.
 
 softVersion = '2013-12-26'  # 说明：REST API版本号保持不变。
 
-class CCP():
+
+class CCP:
     instance = None
+
     def __new__(cls, *args, **kwargs):
         if cls.instance is None:
+
             obj = super().__new__(cls)
 
             # 初始化REST SDK
@@ -56,5 +59,6 @@ class CCP():
 
 if __name__ == "__main__":
     ccp = CCP()
-    ret = ccp.send_template_sms("18516952650", ["1234", "5"], 1)
+    ret = ccp.send_template_sms("15910436301", ["12345", "5"], 1)
+
     print(ret)
