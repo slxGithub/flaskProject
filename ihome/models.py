@@ -92,7 +92,7 @@ class House(BasicModel,db.Model):
     max_days = db.Column(db.Integer, default=0)  # 最大入住天数 0 :无限制
     order_count = db.Column(db.Integer, default=0)  # 历史订单数
     index_image_url = db.Column(db.String(256), default="")  # 首页图片
-    facilities = db.relationship("Faclity", secondary=house_facility)  # 房屋设施
+    facilities = db.relationship("Facility", secondary=house_facility)  # 房屋设施
     images = db.relationship("HouseImage")
     orders = db.relationship("Order", backref="house")
 

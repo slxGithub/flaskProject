@@ -100,3 +100,104 @@ INFO 2019-07-20 12:22:30,727 _internal.py:122 127.0.0.1 - - [20/Jul/2019 12:22:3
 INFO 2019-07-20 12:22:37,871 _internal.py:122  * Detected change in '/home/python/workspace/flaskProject/manage.py', reloading
 INFO 2019-07-20 12:22:38,288 _internal.py:122  * Restarting with stat
 ERROR 2019-07-20 12:39:14,185 __init__.py:97 Error: Directory migrations already exists
+INFO 2019-07-20 19:00:13,293 _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO 2019-07-20 19:00:13,302 _internal.py:122  * Restarting with stat
+WARNING 2019-07-20 19:00:14,116 _internal.py:122  * Debugger is active!
+INFO 2019-07-20 19:00:14,118 _internal.py:122  * Debugger PIN: 314-662-117
+INFO 2019-07-20 19:00:16,655 _internal.py:122 127.0.0.1 - - [20/Jul/2019 19:00:16] "GET /register.html HTTP/1.1" 304 -
+INFO 2019-07-20 19:00:16,998 _internal.py:122 127.0.0.1 - - [20/Jul/2019 19:00:16] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO 2019-07-20 19:00:17,034 _internal.py:122 127.0.0.1 - - [20/Jul/2019 19:00:17] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO 2019-07-20 19:00:17,099 _internal.py:122 127.0.0.1 - - [20/Jul/2019 19:00:17] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO 2019-07-20 19:00:17,105 _internal.py:122 127.0.0.1 - - [20/Jul/2019 19:00:17] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO 2019-07-20 19:00:17,111 _internal.py:122 127.0.0.1 - - [20/Jul/2019 19:00:17] "GET /static/css/ihome/register.css HTTP/1.1" 304 -
+INFO 2019-07-20 19:00:17,118 _internal.py:122 127.0.0.1 - - [20/Jul/2019 19:00:17] "GET /static/images/logo@128x59.png HTTP/1.1" 304 -
+INFO 2019-07-20 19:00:17,130 _internal.py:122 127.0.0.1 - - [20/Jul/2019 19:00:17] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO 2019-07-20 19:00:17,141 _internal.py:122 127.0.0.1 - - [20/Jul/2019 19:00:17] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO 2019-07-20 19:00:17,218 _internal.py:122 127.0.0.1 - - [20/Jul/2019 19:00:17] "GET /static/js/ihome/register.js HTTP/1.1" 304 -
+INFO 2019-07-20 19:00:18,411 _internal.py:122 127.0.0.1 - - [20/Jul/2019 19:00:18] "GET /api/v1.0/imagecodes/2fb8b5d3-e061-4599-8480-64820c935bfb HTTP/1.1" 200 -
+ERROR 2019-07-20 19:00:32,480 auth_code.py:75 When initializing mapper mapped class House->ih_house_info, expression 'Faclity' failed to locate a name ("name 'Faclity' is not defined"). If this is a class name, consider adding this relationship() to the <class 'ihome.models.House'> class after both dependent classes have been defined.
+INFO 2019-07-20 19:00:32,696 _internal.py:122 127.0.0.1 - - [20/Jul/2019 19:00:32] "GET /api/v1.0/smscodes/15910436301?image_code=7GQF&image_code_id=2fb8b5d3-e061-4599-8480-64820c935bfb HTTP/1.1" 200 -
+INFO 2019-07-20 19:34:09,451 _internal.py:122  * Detected change in '/home/python/workspace/flaskProject/ihome/api_1_0/auth_code.py', reloading
+INFO 2019-07-20 19:34:09,720 _internal.py:122  * Restarting with stat
+WARNING 2019-07-20 19:34:10,671 _internal.py:122  * Debugger is active!
+INFO 2019-07-20 19:34:10,672 _internal.py:122  * Debugger PIN: 314-662-117
+INFO 2019-07-20 20:18:53,160 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:18:53] "GET /register.html HTTP/1.1" 304 -
+INFO 2019-07-20 20:18:53,370 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:18:53] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO 2019-07-20 20:18:53,377 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:18:53] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO 2019-07-20 20:18:53,444 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:18:53] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO 2019-07-20 20:18:53,452 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:18:53] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO 2019-07-20 20:18:53,458 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:18:53] "GET /static/css/ihome/register.css HTTP/1.1" 304 -
+INFO 2019-07-20 20:18:53,483 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:18:53] "GET /static/images/logo@128x59.png HTTP/1.1" 304 -
+INFO 2019-07-20 20:18:53,491 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:18:53] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO 2019-07-20 20:18:53,494 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:18:53] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO 2019-07-20 20:18:53,514 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:18:53] "GET /static/js/ihome/register.js HTTP/1.1" 304 -
+INFO 2019-07-20 20:18:54,359 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:18:54] "GET /api/v1.0/imagecodes/4cd5e78d-023a-453a-ab9a-181fc825a8f5 HTTP/1.1" 200 -
+INFO 2019-07-20 20:19:18,160 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:19:18] "GET /api/v1.0/smscodes/15910436301?image_code=heew&image_code_id=4cd5e78d-023a-453a-ab9a-181fc825a8f5 HTTP/1.1" 200 -
+INFO 2019-07-20 20:19:20,666 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:19:20] "GET /api/v1.0/imagecodes/d593c485-d282-4e1e-94ee-952868c4e488 HTTP/1.1" 200 -
+ERROR 2019-07-20 20:19:27,829 auth_code.py:74 When initializing mapper mapped class House->ih_house_info, expression 'Faclity' failed to locate a name ("name 'Faclity' is not defined"). If this is a class name, consider adding this relationship() to the <class 'ihome.models.House'> class after both dependent classes have been defined.
+INFO 2019-07-20 20:19:28,062 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:19:28] "GET /api/v1.0/smscodes/15910436301?image_code=RTMW&image_code_id=d593c485-d282-4e1e-94ee-952868c4e488 HTTP/1.1" 200 -
+INFO 2019-07-20 20:19:48,219 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:19:48] "POST /api/v1.0/users HTTP/1.1" 405 -
+INFO 2019-07-20 20:20:00,563 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:20:00] "GET /api/v1.0/users HTTP/1.1" 404 -
+INFO 2019-07-20 20:20:16,070 _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO 2019-07-20 20:20:16,072 _internal.py:122  * Restarting with stat
+WARNING 2019-07-20 20:20:16,715 _internal.py:122  * Debugger is active!
+INFO 2019-07-20 20:20:16,716 _internal.py:122  * Debugger PIN: 314-662-117
+INFO 2019-07-20 20:20:23,762 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:20:23] "POST /api/v1.0/users HTTP/1.1" 405 -
+INFO 2019-07-20 20:20:29,079 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:20:29] "GET /api/v1.0/users HTTP/1.1" 404 -
+INFO 2019-07-20 20:21:13,934 _internal.py:122  * Detected change in '/home/python/workspace/flaskProject/ihome/api_1_0/__init__.py', reloading
+INFO 2019-07-20 20:21:14,076 _internal.py:122  * Restarting with stat
+WARNING 2019-07-20 20:21:14,666 _internal.py:122  * Debugger is active!
+INFO 2019-07-20 20:21:14,667 _internal.py:122  * Debugger PIN: 314-662-117
+INFO 2019-07-20 20:21:24,113 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:21:24] "POST /api/v1.0/users HTTP/1.1" 500 -
+INFO 2019-07-20 20:21:28,569 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:21:28] "GET /api/v1.0/users HTTP/1.1" 404 -
+INFO 2019-07-20 20:21:32,443 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:21:32] "GET /register.html HTTP/1.1" 304 -
+INFO 2019-07-20 20:21:32,577 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:21:32] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO 2019-07-20 20:21:32,583 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:21:32] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO 2019-07-20 20:21:32,591 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:21:32] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO 2019-07-20 20:21:32,621 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:21:32] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO 2019-07-20 20:21:32,672 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:21:32] "GET /static/css/ihome/register.css HTTP/1.1" 304 -
+INFO 2019-07-20 20:21:32,699 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:21:32] "GET /static/images/logo@128x59.png HTTP/1.1" 304 -
+INFO 2019-07-20 20:21:32,737 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:21:32] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO 2019-07-20 20:21:32,750 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:21:32] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO 2019-07-20 20:21:32,763 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:21:32] "GET /static/js/ihome/register.js HTTP/1.1" 304 -
+INFO 2019-07-20 20:21:33,501 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:21:33] "GET /api/v1.0/imagecodes/6fc0e03a-20b9-4ad4-9be2-7177fc8cda72 HTTP/1.1" 200 -
+INFO 2019-07-20 20:21:38,174 _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO 2019-07-20 20:21:38,182 _internal.py:122  * Restarting with stat
+WARNING 2019-07-20 20:21:38,758 _internal.py:122  * Debugger is active!
+INFO 2019-07-20 20:21:38,759 _internal.py:122  * Debugger PIN: 314-662-117
+INFO 2019-07-20 20:21:42,502 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:21:42] "GET /register.html HTTP/1.1" 304 -
+INFO 2019-07-20 20:21:42,618 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:21:42] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO 2019-07-20 20:21:42,627 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:21:42] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO 2019-07-20 20:21:42,672 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:21:42] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO 2019-07-20 20:21:42,677 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:21:42] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO 2019-07-20 20:21:42,683 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:21:42] "GET /static/css/ihome/register.css HTTP/1.1" 304 -
+INFO 2019-07-20 20:21:42,689 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:21:42] "GET /static/images/logo@128x59.png HTTP/1.1" 304 -
+INFO 2019-07-20 20:21:42,702 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:21:42] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO 2019-07-20 20:21:42,709 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:21:42] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO 2019-07-20 20:21:42,727 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:21:42] "GET /static/js/ihome/register.js HTTP/1.1" 304 -
+INFO 2019-07-20 20:21:43,398 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:21:43] "GET /api/v1.0/imagecodes/6827a903-8b80-40cb-bc26-74ef1088ef41 HTTP/1.1" 200 -
+ERROR 2019-07-20 20:21:59,861 auth_code.py:74 When initializing mapper mapped class House->ih_house_info, expression 'Faclity' failed to locate a name ("name 'Faclity' is not defined"). If this is a class name, consider adding this relationship() to the <class 'ihome.models.House'> class after both dependent classes have been defined.
+INFO 2019-07-20 20:22:00,092 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:22:00] "GET /api/v1.0/smscodes/15910436301?image_code=biy8&image_code_id=6827a903-8b80-40cb-bc26-74ef1088ef41 HTTP/1.1" 200 -
+INFO 2019-07-20 20:22:21,916 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:22:21] "POST /api/v1.0/users HTTP/1.1" 500 -
+INFO 2019-07-20 20:22:25,735 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:22:25] "GET /api/v1.0/users HTTP/1.1" 404 -
+INFO 2019-07-20 20:24:09,959 _internal.py:122  * Detected change in '/home/python/workspace/flaskProject/ihome/models.py', reloading
+INFO 2019-07-20 20:24:10,176 _internal.py:122  * Restarting with stat
+WARNING 2019-07-20 20:24:11,524 _internal.py:122  * Debugger is active!
+INFO 2019-07-20 20:24:11,531 _internal.py:122  * Debugger PIN: 314-662-117
+INFO 2019-07-20 20:25:51,620 _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO 2019-07-20 20:25:51,622 _internal.py:122  * Restarting with stat
+WARNING 2019-07-20 20:25:52,188 _internal.py:122  * Debugger is active!
+INFO 2019-07-20 20:25:52,189 _internal.py:122  * Debugger PIN: 314-662-117
+INFO 2019-07-20 20:26:11,212 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:26:11] "GET /register.html HTTP/1.1" 304 -
+INFO 2019-07-20 20:26:11,325 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:26:11] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO 2019-07-20 20:26:11,333 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:26:11] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO 2019-07-20 20:26:11,408 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:26:11] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO 2019-07-20 20:26:11,419 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:26:11] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO 2019-07-20 20:26:11,432 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:26:11] "GET /static/css/ihome/register.css HTTP/1.1" 304 -
+INFO 2019-07-20 20:26:11,444 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:26:11] "GET /static/images/logo@128x59.png HTTP/1.1" 304 -
+INFO 2019-07-20 20:26:11,458 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:26:11] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO 2019-07-20 20:26:11,467 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:26:11] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO 2019-07-20 20:26:11,512 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:26:11] "GET /static/js/ihome/register.js HTTP/1.1" 304 -
+INFO 2019-07-20 20:26:11,991 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:26:11] "GET /api/v1.0/imagecodes/a4c4edc3-52a1-46b0-adb8-4ec725052175 HTTP/1.1" 200 -
+INFO 2019-07-20 20:26:27,668 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:26:27] "GET /api/v1.0/smscodes/15910436301?image_code=dcma&image_code_id=a4c4edc3-52a1-46b0-adb8-4ec725052175 HTTP/1.1" 200 -
+INFO 2019-07-20 20:26:52,083 _internal.py:122 127.0.0.1 - - [20/Jul/2019 20:26:52] "POST /api/v1.0/users HTTP/1.1" 200 -
