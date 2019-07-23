@@ -47,7 +47,7 @@ def create_app(config_name="develop"):
     app.url_map.converters["re"] = comments.ReConverter
     # 初始化redis
     global redis_store
-    redis_store = redis.StrictRedis(host=config_class.REDIS_HOST, port=config_class.REDIS_PORT)
+    redis_store = redis.StrictRedis(host=config_class.REDIS_HOST, port=config_class.REDIS_PORT,decode_responses=True)
 
     # 注册蓝图
     from ihome import api_1_0
