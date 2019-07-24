@@ -6,3 +6,4 @@ api = Blueprint("api", __name__)
 from . import demo
 from . import auth_code
 from . import passport
+from . import profile,areas

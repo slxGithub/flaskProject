@@ -88,3 +88,10 @@ body {
     line-height: 25px;
     color: #666;
 }
+
+#user-avatar {
+    height: 100px;
+    line-height: 100px;
+    border-radius: 50%;
+
+}

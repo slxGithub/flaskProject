@@ -20,14 +20,10 @@ def set_user_avatar():
 
     # 获取图片
     image_file = request.files.get("avatar")
+    print(type(image_file))
 
     if image_file is None:
         return jsonify(errno=RET.PARAMERR, errmsg="未上传图片")
-
-    # with open(image_file,"rb") as f:
-    #     image_data = f
-
-    # 调用七牛上传图片, 返回文件名
     try:
         file_name = storage(image_file)
     except Exception as e:
@@ -44,6 +40,7 @@ def set_user_avatar():
         return jsonify(errno=RET.DBERR, errmsg="保存图片信息失败")
 
     avatar_url = constants.YOUPAIYUN_URL_DOMAIN + file_name
+    print(avatar_url)
     # 保存成功返回
     return jsonify(errno=RET.OK, errmsg="保存成功", data={"avatar_url": avatar_url})
 
@@ -135,8 +132,7 @@ def set_user_auth():
 
     # 保存用户的姓名与身份证号
     try:
-        User.query.filter_by(id=user_id, real_name=None, id_card=None)\
-            .update({"real_name": real_name, "id_card": id_card})
+        User.query.filter_by(id=user_id,real_name=None,real_card=None).update({"real_name":real_name,"real_card":id_card})
         db.session.commit()
     except Exception as e:
         current_app.logger.error(e)

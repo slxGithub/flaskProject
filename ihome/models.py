@@ -1,6 +1,7 @@
 from . import db
 from werkzeug.security import check_password_hash, generate_password_hash
 import datetime
+from ihome import constants
 
 
 class BasicModel():
@@ -8,7 +9,7 @@ class BasicModel():
     update_time = db.Column(db.DateTime, default=datetime.datetime.now, onupdate=datetime.datetime.now)  # 更新时间
 
 
-class User(BasicModel,db.Model):
+class User(BasicModel, db.Model):
     __tablename__ = "ih_user_profile"
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(32), unique=True, nullable=False)
@@ -17,8 +18,8 @@ class User(BasicModel,db.Model):
     real_name = db.Column(db.String(32))
     real_card = db.Column(db.String(20))
     avatar_url = db.Column(db.String(128))
-    houses = db.relationship("House",backref="user")
-    orders = db.relationship("Order",backref="user")
+    houses = db.relationship("House", backref="user")
+    orders = db.relationship("Order", backref="user")
 
     @property  # 把函数变为属性 # getter @property本身又创建了另一个装饰器@score.setter，负责把一个setter方法变成属性赋值
     def password(self):
@@ -37,7 +38,7 @@ class User(BasicModel,db.Model):
             "user_id": self.id,
             "name": self.name,
             "mobile": self.mobile,
-            "avatar": self.avatar_url if self.avatar_url else "",
+            "avatar": constants.YOUPAIYUN_URL_DOMAIN + self.avatar_url if self.avatar_url else "",
             "create_time": self.create_time.strftime("%Y-%m-%d %H:%M:%S")
         }
         return user_dict
@@ -47,12 +48,12 @@ class User(BasicModel,db.Model):
         auth_dict = {
             "user_id": self.id,
             "real_name": self.real_name,
-            "id_card": self.id_card
+            "id_card": self.real_card
         }
         return auth_dict
 
 
-class Area(BasicModel,db.Model):
+class Area(BasicModel, db.Model):
     __tablename__ = "ih_area_info"
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(32), unique=True, nullable=False)
@@ -74,7 +75,7 @@ house_facility = db.Table(
 )
 
 
-class House(BasicModel,db.Model):
+class House(BasicModel, db.Model):
     __tablename__ = "ih_house_info"
     id = db.Column(db.Integer, primary_key=True)
     user_id = db.Column(db.Integer, db.ForeignKey("ih_user_profile.id"), nullable=False)
@@ -103,7 +104,7 @@ class House(BasicModel,db.Model):
             "title": self.title,
             "price": self.price,
             "area_name": self.area.name,
-            "img_url": self.index_image_url if self.index_image_url else "",
+            "img_url": constants.YOUPAIYUN_URL_DOMAIN + self.index_image_url if self.index_image_url else "",
             "room_count": self.room_count,
             "order_count": self.order_count,
             "address": self.address,
@@ -118,7 +119,7 @@ class House(BasicModel,db.Model):
             "hid": self.id,
             "user_id": self.user_id,
             "user_name": self.user.name,
-            "user_avatar": self.user.avatar_url if self.user.avatar_url else "",
+            "user_avatar": constants.YOUPAIYUN_URL_DOMAIN + self.user.avatar_url if self.user.avatar_url else "",
             "title": self.title,
             "price": self.price,
             "address": self.address,
@@ -145,7 +146,8 @@ class House(BasicModel,db.Model):
 
         # 评论信息
         comments = []
-        orders = Order.query.filter(Order.house_id == self.id, Order.status == "COMPLETE",Order.comment != None).order_by(
+        orders = Order.query.filter(Order.house_id == self.id, Order.status == "COMPLETE",
+                                    Order.comment != None).order_by(
             Order.update_time.desc()).limit(5)
         for order in orders:
             comment = {
@@ -158,20 +160,20 @@ class House(BasicModel,db.Model):
         return house_dict
 
 
-class Facility(BasicModel,db.Model):
+class Facility(BasicModel, db.Model):
     __tablename__ = "ih_facility_info"
     id = db.Column(db.Integer, primary_key=True)  # 设施编号
     name = db.Column(db.String(32), nullable=False)  # 设施名字
 
 
-class HouseImage(BasicModel,db.Model):
+class HouseImage(BasicModel, db.Model):
     __tablename__ = "ih_house_image"
     id = db.Column(db.Integer, primary_key=True)
     house_id = db.Column(db.Integer, db.ForeignKey("ih_house_info.id"), nullable=False)
     url = db.Column(db.String(256), nullable=False)
 
 
-class Order(BasicModel,db.Model):
+class Order(BasicModel, db.Model):
     __tablename__ = "ih_order_info"
     id = db.Column(db.Integer, primary_key=True)
     house_id = db.Column(db.Integer, db.ForeignKey("ih_house_info.id"), nullable=False)
@@ -200,7 +202,7 @@ class Order(BasicModel,db.Model):
         order_dict = {
             "order_id": self.id,
             "title": self.house.title,
-            "img_url": self.house.index_image_url if self.house.index_image_url else "",
+            "img_url": constants.YOUPAIYUN_URL_DOMAIN + self.house.index_image_url if self.house.index_image_url else "",
             "start_date": self.begin_date.strftime("%Y-%m-%d"),
             "end_date": self.end_date.strftime("%Y-%m-%d"),
             "ctime": self.create_time.strftime("%Y-%m-%d %H:%M:%S"),
