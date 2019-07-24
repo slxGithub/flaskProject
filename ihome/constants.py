@@ -13,8 +13,8 @@ LOGIN_ERROR_MAX_TIMES = 5
 # 登录错误限制的时间, 单位：秒
 LOGIN_ERROR_FORBID_TIME = 600
 
-# 七牛的域名
-QINIU_URL_DOMAIN = "http://o91qujnqh.bkt.clouddn.com/"
+# 又拍云的域名
+YOUPAIYUN_URL_DOMAIN = "image-ihome.test.upcdn.net/"
 
 # 城区信息的缓存时间, 单位：秒
 AREA_INFO_REDIS_CACHE_EXPIRES = 7200

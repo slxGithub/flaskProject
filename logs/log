@@ -398,3 +398,145 @@ INFO 2019-07-23 16:32:30,957 _internal.py:88 127.0.0.1 - - [23/Jul/2019 16:32:30
 INFO 2019-07-23 16:32:30,969 _internal.py:88 127.0.0.1 - - [23/Jul/2019 16:32:30] "GET /static/js/ihome/profile.js HTTP/1.1" 200 -
 INFO 2019-07-23 16:32:31,111 _internal.py:88 127.0.0.1 - - [23/Jul/2019 16:32:31] "GET /api/v1.0/user HTTP/1.1" 404 -
 INFO 2019-07-23 16:32:33,954 _internal.py:88 127.0.0.1 - - [23/Jul/2019 16:32:33] "GET /api/v1.0/user HTTP/1.1" 404 -
+INFO 2019-07-24 17:54:00,279 _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO 2019-07-24 17:54:00,280 _internal.py:88  * Restarting with stat
+WARNING 2019-07-24 17:54:00,702 _internal.py:88  * Debugger is active!
+INFO 2019-07-24 17:54:00,703 _internal.py:88  * Debugger PIN: 191-999-805
+INFO 2019-07-24 17:54:03,818 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:54:03] "GET /my.html HTTP/1.1" 304 -
+INFO 2019-07-24 17:54:03,918 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:54:03] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO 2019-07-24 17:54:03,923 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:54:03] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO 2019-07-24 17:54:03,924 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:54:03] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO 2019-07-24 17:54:03,926 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:54:03] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 304 -
+INFO 2019-07-24 17:54:03,929 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:54:03] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO 2019-07-24 17:54:03,938 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:54:03] "GET /static/css/ihome/my.css HTTP/1.1" 304 -
+INFO 2019-07-24 17:54:03,941 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:54:03] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO 2019-07-24 17:54:03,944 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:54:03] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO 2019-07-24 17:54:03,947 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:54:03] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO 2019-07-24 17:54:03,951 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:54:03] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 304 -
+INFO 2019-07-24 17:54:03,959 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:54:03] "GET /static/js/ihome/my.js HTTP/1.1" 304 -
+INFO 2019-07-24 17:54:04,008 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:54:04] "GET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 304 -
+INFO 2019-07-24 17:54:04,133 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:54:04] "GET /api/v1.0/user HTTP/1.1" 404 -
+INFO 2019-07-24 17:54:15,329 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:54:15] "GET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1" 404 -
+INFO 2019-07-24 17:54:17,313 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:54:17] "GET /api/v1.0/user HTTP/1.1" 404 -
+INFO 2019-07-24 17:54:19,920 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:54:19] "GET /profile.html HTTP/1.1" 304 -
+INFO 2019-07-24 17:54:19,954 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:54:19] "GET /static/css/ihome/profile.css HTTP/1.1" 304 -
+INFO 2019-07-24 17:54:19,961 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:54:19] "GET /static/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO 2019-07-24 17:54:19,970 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:54:19] "GET /static/js/ihome/profile.js HTTP/1.1" 304 -
+INFO 2019-07-24 17:54:20,057 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:54:20] "GET /api/v1.0/user HTTP/1.1" 404 -
+INFO 2019-07-24 17:54:43,415 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:54:43] "POST /api/v1.0/users/avatar HTTP/1.1" 405 -
+INFO 2019-07-24 17:54:48,341 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:54:48] "GET /api/v1.0/users/avatar HTTP/1.1" 404 -
+INFO 2019-07-24 17:56:00,636 _internal.py:88  * Detected change in '/home/python/workspace/flask/flaskProject/ihome/api_1_0/__init__.py', reloading
+INFO 2019-07-24 17:56:00,720 _internal.py:88  * Restarting with stat
+INFO 2019-07-24 17:56:19,218 _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO 2019-07-24 17:56:19,219 _internal.py:88  * Restarting with stat
+WARNING 2019-07-24 17:56:19,651 _internal.py:88  * Debugger is active!
+INFO 2019-07-24 17:56:19,652 _internal.py:88  * Debugger PIN: 191-999-805
+INFO 2019-07-24 17:56:23,193 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:56:23] "GET /profile.html HTTP/1.1" 304 -
+INFO 2019-07-24 17:56:23,221 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:56:23] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO 2019-07-24 17:56:23,222 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:56:23] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO 2019-07-24 17:56:23,224 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:56:23] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO 2019-07-24 17:56:23,227 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:56:23] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 304 -
+INFO 2019-07-24 17:56:23,230 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:56:23] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO 2019-07-24 17:56:23,232 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:56:23] "GET /static/css/ihome/profile.css HTTP/1.1" 304 -
+INFO 2019-07-24 17:56:23,234 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:56:23] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO 2019-07-24 17:56:23,237 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:56:23] "GET /static/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO 2019-07-24 17:56:23,240 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:56:23] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO 2019-07-24 17:56:23,243 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:56:23] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO 2019-07-24 17:56:23,246 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:56:23] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 304 -
+INFO 2019-07-24 17:56:23,248 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:56:23] "GET /static/js/ihome/profile.js HTTP/1.1" 304 -
+INFO 2019-07-24 17:56:23,546 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:56:23] "GET /api/v1.0/user HTTP/1.1" 200 -
+ERROR 2019-07-24 17:56:32,642 profile.py:33 'dict' object has no attribute 'code'
+INFO 2019-07-24 17:56:32,646 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:56:32] "POST /api/v1.0/users/avatar HTTP/1.1" 200 -
+INFO 2019-07-24 17:57:06,649 _internal.py:88  * Detected change in '/home/python/workspace/flask/flaskProject/ihome/utils/image_storage.py', reloading
+INFO 2019-07-24 17:57:06,754 _internal.py:88  * Restarting with stat
+WARNING 2019-07-24 17:57:07,176 _internal.py:88  * Debugger is active!
+INFO 2019-07-24 17:57:07,177 _internal.py:88  * Debugger PIN: 191-999-805
+INFO 2019-07-24 17:57:17,539 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:57:17] "GET /profile.html HTTP/1.1" 304 -
+INFO 2019-07-24 17:57:17,562 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:57:17] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO 2019-07-24 17:57:17,565 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:57:17] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO 2019-07-24 17:57:17,566 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:57:17] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO 2019-07-24 17:57:17,568 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:57:17] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 304 -
+INFO 2019-07-24 17:57:17,570 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:57:17] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO 2019-07-24 17:57:17,578 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:57:17] "GET /static/css/ihome/profile.css HTTP/1.1" 304 -
+INFO 2019-07-24 17:57:17,581 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:57:17] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO 2019-07-24 17:57:17,583 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:57:17] "GET /static/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO 2019-07-24 17:57:17,586 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:57:17] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO 2019-07-24 17:57:17,588 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:57:17] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO 2019-07-24 17:57:17,600 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:57:17] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 304 -
+INFO 2019-07-24 17:57:17,605 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:57:17] "GET /static/js/ihome/profile.js HTTP/1.1" 304 -
+INFO 2019-07-24 17:57:17,965 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:57:17] "GET /api/v1.0/user HTTP/1.1" 200 -
+ERROR 2019-07-24 17:57:23,923 profile.py:33 'dict' object has no attribute 'code'
+INFO 2019-07-24 17:57:23,927 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:57:23] "POST /api/v1.0/users/avatar HTTP/1.1" 200 -
+INFO 2019-07-24 17:58:39,016 _internal.py:88  * Detected change in '/home/python/workspace/flask/flaskProject/ihome/utils/image_storage.py', reloading
+INFO 2019-07-24 17:58:39,106 _internal.py:88  * Restarting with stat
+WARNING 2019-07-24 17:58:39,520 _internal.py:88  * Debugger is active!
+INFO 2019-07-24 17:58:39,521 _internal.py:88  * Debugger PIN: 191-999-805
+ERROR 2019-07-24 17:59:06,492 profile.py:33 图片上传失败
+INFO 2019-07-24 17:59:06,493 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:59:06] "POST /api/v1.0/users/avatar HTTP/1.1" 200 -
+INFO 2019-07-24 17:59:09,546 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:59:09] "GET /profile.html HTTP/1.1" 304 -
+INFO 2019-07-24 17:59:09,578 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:59:09] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO 2019-07-24 17:59:09,584 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:59:09] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO 2019-07-24 17:59:09,586 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:59:09] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO 2019-07-24 17:59:09,587 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:59:09] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 304 -
+INFO 2019-07-24 17:59:09,589 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:59:09] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO 2019-07-24 17:59:09,592 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:59:09] "GET /static/css/ihome/profile.css HTTP/1.1" 304 -
+INFO 2019-07-24 17:59:09,596 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:59:09] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO 2019-07-24 17:59:09,597 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:59:09] "GET /static/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO 2019-07-24 17:59:09,599 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:59:09] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO 2019-07-24 17:59:09,607 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:59:09] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO 2019-07-24 17:59:09,608 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:59:09] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 304 -
+INFO 2019-07-24 17:59:09,610 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:59:09] "GET /static/js/ihome/profile.js HTTP/1.1" 304 -
+INFO 2019-07-24 17:59:09,781 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:59:09] "GET /api/v1.0/user HTTP/1.1" 200 -
+ERROR 2019-07-24 17:59:15,836 profile.py:33 图片上传失败
+INFO 2019-07-24 17:59:15,836 _internal.py:88 127.0.0.1 - - [24/Jul/2019 17:59:15] "POST /api/v1.0/users/avatar HTTP/1.1" 200 -
+INFO 2019-07-24 18:02:11,243 _internal.py:88  * Detected change in '/home/python/workspace/flask/flaskProject/ihome/api_1_0/profile.py', reloading
+INFO 2019-07-24 18:02:11,335 _internal.py:88  * Restarting with stat
+WARNING 2019-07-24 18:02:11,826 _internal.py:88  * Debugger is active!
+INFO 2019-07-24 18:02:11,827 _internal.py:88  * Debugger PIN: 191-999-805
+INFO 2019-07-24 18:02:21,634 _internal.py:88 127.0.0.1 - - [24/Jul/2019 18:02:21] "GET /profile.html HTTP/1.1" 304 -
+INFO 2019-07-24 18:02:21,765 _internal.py:88 127.0.0.1 - - [24/Jul/2019 18:02:21] "GET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+INFO 2019-07-24 18:02:21,767 _internal.py:88 127.0.0.1 - - [24/Jul/2019 18:02:21] "GET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+INFO 2019-07-24 18:02:21,768 _internal.py:88 127.0.0.1 - - [24/Jul/2019 18:02:21] "GET /static/css/reset.css HTTP/1.1" 304 -
+INFO 2019-07-24 18:02:21,770 _internal.py:88 127.0.0.1 - - [24/Jul/2019 18:02:21] "GET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1" 304 -
+INFO 2019-07-24 18:02:21,773 _internal.py:88 127.0.0.1 - - [24/Jul/2019 18:02:21] "GET /static/css/ihome/main.css HTTP/1.1" 304 -
+INFO 2019-07-24 18:02:21,779 _internal.py:88 127.0.0.1 - - [24/Jul/2019 18:02:21] "GET /static/css/ihome/profile.css HTTP/1.1" 304 -
+INFO 2019-07-24 18:02:21,781 _internal.py:88 127.0.0.1 - - [24/Jul/2019 18:02:21] "GET /static/js/jquery.min.js HTTP/1.1" 304 -
+INFO 2019-07-24 18:02:21,782 _internal.py:88 127.0.0.1 - - [24/Jul/2019 18:02:21] "GET /static/js/jquery.form.min.js HTTP/1.1" 304 -
+INFO 2019-07-24 18:02:21,784 _internal.py:88 127.0.0.1 - - [24/Jul/2019 18:02:21] "GET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 -
+INFO 2019-07-24 18:02:21,786 _internal.py:88 127.0.0.1 - - [24/Jul/2019 18:02:21] "GET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1" 304 -
+INFO 2019-07-24 18:02:21,789 _internal.py:88 127.0.0.1 - - [24/Jul/2019 18:02:21] "GET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1" 304 -
+INFO 2019-07-24 18:02:21,790 _internal.py:88 127.0.0.1 - - [24/Jul/2019 18:02:21] "GET /static/js/ihome/profile.js HTTP/1.1" 304 -
+INFO 2019-07-24 18:02:21,979 _internal.py:88 127.0.0.1 - - [24/Jul/2019 18:02:21] "GET /api/v1.0/user HTTP/1.1" 200 -
+INFO 2019-07-24 18:02:27,019 _internal.py:88 127.0.0.1 - - [24/Jul/2019 18:02:27] "GET /api/v1.0/user HTTP/1.1" 200 -
+INFO 2019-07-24 18:02:34,523 _internal.py:88 127.0.0.1 - - [24/Jul/2019 18:02:34] "POST /api/v1.0/users/avatar HTTP/1.1" 500 -
+INFO 2019-07-24 18:03:04,658 _internal.py:88  * Detected change in '/home/python/workspace/flask/flaskProject/ihome/api_1_0/profile.py', reloading
+INFO 2019-07-24 18:03:04,746 _internal.py:88  * Restarting with stat
+WARNING 2019-07-24 18:03:05,197 _internal.py:88  * Debugger is active!
+INFO 2019-07-24 18:03:05,197 _internal.py:88  * Debugger PIN: 191-999-805
+INFO 2019-07-24 18:04:25,970 _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO 2019-07-24 18:04:25,971 _internal.py:88  * Restarting with stat
+WARNING 2019-07-24 18:04:28,774 _internal.py:88  * Debugger is active!
+INFO 2019-07-24 18:04:28,774 _internal.py:88  * Debugger PIN: 191-999-805
+INFO 2019-07-24 18:04:40,235 _internal.py:88 127.0.0.1 - - [24/Jul/2019 18:04:40] "GET / HTTP/1.1" 200 -
+INFO 2019-07-24 18:04:40,277 _internal.py:88 127.0.0.1 - - [24/Jul/2019 18:04:40] "GET /static/plugins/swiper/css/swiper.min.css HTTP/1.1" 304 -
+INFO 2019-07-24 18:04:40,278 _internal.py:88 127.0.0.1 - - [24/Jul/2019 18:04:40] "GET /static/css/ihome/index.css HTTP/1.1" 304 -
+INFO 2019-07-24 18:04:40,401 _internal.py:88 127.0.0.1 - - [24/Jul/2019 18:04:40] "GET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1" 304 -
+INFO 2019-07-24 18:04:40,403 _internal.py:88 127.0.0.1 - - [24/Jul/2019 18:04:40] "GET /static/js/template.js HTTP/1.1" 304 -
+INFO 2019-07-24 18:04:40,463 _internal.py:88 127.0.0.1 - - [24/Jul/2019 18:04:40] "GET /static/js/ihome/index.js HTTP/1.1" 304 -
+INFO 2019-07-24 18:04:40,532 _internal.py:88 127.0.0.1 - - [24/Jul/2019 18:04:40] "GET /static/images/logo@128x59.png HTTP/1.1" 304 -
+INFO 2019-07-24 18:04:40,716 _internal.py:88 127.0.0.1 - - [24/Jul/2019 18:04:40] "GET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 304 -
+INFO 2019-07-24 18:04:40,875 _internal.py:88 127.0.0.1 - - [24/Jul/2019 18:04:40] "GET /api/v1.0/session HTTP/1.1" 200 -
+INFO 2019-07-24 18:04:40,877 _internal.py:88 127.0.0.1 - - [24/Jul/2019 18:04:40] "GET /api/v1.0/houses/index HTTP/1.1" 404 -
+INFO 2019-07-24 18:04:40,880 _internal.py:88 127.0.0.1 - - [24/Jul/2019 18:04:40] "GET /api/v1.0/areas HTTP/1.1" 404 -
+INFO 2019-07-24 18:06:28,696 _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO 2019-07-24 18:06:28,696 _internal.py:88  * Restarting with stat
+WARNING 2019-07-24 18:06:29,869 _internal.py:88  * Debugger is active!
+INFO 2019-07-24 18:06:29,870 _internal.py:88  * Debugger PIN: 191-999-805
+INFO 2019-07-24 18:06:38,055 _internal.py:88 127.0.0.1 - - [24/Jul/2019 18:06:38] "GET /api/v1.0/session HTTP/1.1" 200 -
+INFO 2019-07-24 18:06:38,065 _internal.py:88 127.0.0.1 - - [24/Jul/2019 18:06:38] "GET /api/v1.0/houses/index HTTP/1.1" 404 -
+INFO 2019-07-24 18:06:38,067 _internal.py:88 127.0.0.1 - - [24/Jul/2019 18:06:38] "GET /api/v1.0/areas HTTP/1.1" 404 -
+INFO 2019-07-24 18:06:41,781 _internal.py:88 127.0.0.1 - - [24/Jul/2019 18:06:41] "GET /api/v1.0/user HTTP/1.1" 404 -
+INFO 2019-07-24 18:06:44,399 _internal.py:88 127.0.0.1 - - [24/Jul/2019 18:06:44] "GET /profile.html HTTP/1.1" 200 -
+INFO 2019-07-24 18:06:44,446 _internal.py:88 127.0.0.1 - - [24/Jul/2019 18:06:44] "GET /api/v1.0/user HTTP/1.1" 404 -
+INFO 2019-07-24 18:06:49,058 _internal.py:88 127.0.0.1 - - [24/Jul/2019 18:06:49] "POST /api/v1.0/users/avatar HTTP/1.1" 405 -
+INFO 2019-07-24 18:07:11,149 _internal.py:88 127.0.0.1 - - [24/Jul/2019 18:07:11] "POST /api/v1.0/users/avatar HTTP/1.1" 405 -

@@ -10,8 +10,8 @@ class ReConverter(BaseConverter):
         self.regex = regex
 
 
-def login_require(view_func):
-    @functools.wraps()
+def login_required(view_func):
+    @functools.wraps(view_func)
     def wrapper(*args, **kwargs):
         user_id = session.get("user_id")
         if user_id is not None:
