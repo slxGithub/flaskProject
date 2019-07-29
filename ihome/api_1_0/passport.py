@@ -87,7 +87,7 @@ def login():
             return jsonify(errno=RET.REQERR, errmsg="错误次数过多，请稍后重试")
 
     try:
-        user = User.query.filter_by(name=mobile).first()
+        user = User.query.filter_by(mobile=mobile).first()
     except Exception as e:
         current_app.logger.error(e)
         return jsonify(errno=RET.OK, errmsg="数据库查询异常")

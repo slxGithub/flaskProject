@@ -179,7 +179,7 @@ def save_house_image():
     if house is None:  # if not house:
         return jsonify(errno=RET.NODATA, errmsg="房屋不存在")
 
-    image_data = image_file.read()
+    image_data = image_file
     # 保存图片到七牛中
     try:
         file_name = storage(image_data)
@@ -203,7 +203,7 @@ def save_house_image():
         db.session.rollback()
         return jsonify(errno=RET.DBERR, errmsg="保存图片数据异常")
 
-    image_url = constants.QINIU_URL_DOMAIN + file_name
+    image_url = constants.YOUPAIYUN_URL_DOMAIN + file_name
 
     return jsonify(errno=RET.OK, errmsg="OK", data={"image_url": image_url})
 

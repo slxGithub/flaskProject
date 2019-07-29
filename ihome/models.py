@@ -53,10 +53,12 @@ class User(BasicModel, db.Model):
         return auth_dict
 
 
+
 class Area(BasicModel, db.Model):
     __tablename__ = "ih_area_info"
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(32), unique=True, nullable=False)
+    houses = db.relationship("House", backref="area")  # 区域的房屋
 
     def to_dict(self):
         """将对象转换为字典"""
@@ -97,6 +99,7 @@ class House(BasicModel, db.Model):
     images = db.relationship("HouseImage")
     orders = db.relationship("Order", backref="house")
 
+
     def to_basic_dict(self):
         """将基本信息转换为字典数据"""
         house_dict = {
@@ -108,7 +111,7 @@ class House(BasicModel, db.Model):
             "room_count": self.room_count,
             "order_count": self.order_count,
             "address": self.address,
-            "user_avatar": self.user.avatar_url if self.user.avatar_url else "",
+            "user_avatar": constants.YOUPAIYUN_URL_DOMAIN + self.user.avatar_url if self.user.avatar_url else "",
             "ctime": self.create_time.strftime("%Y-%m-%d")
         }
         return house_dict
@@ -135,7 +138,7 @@ class House(BasicModel, db.Model):
 
         img_urls = []
         for image in self.images:
-            img_urls.append(image.url)
+            img_urls.append(constants.YOUPAIYUN_URL_DOMAIN + image.url)
         house_dict["img_urls"] = img_urls
 
         # 房屋设施
@@ -179,6 +182,7 @@ class Order(BasicModel, db.Model):
     house_id = db.Column(db.Integer, db.ForeignKey("ih_house_info.id"), nullable=False)
     user_id = db.Column(db.Integer, db.ForeignKey("ih_user_profile.id"), nullable=False)
     begin_date = db.Column(db.DateTime, nullable=False)
+    end_date = db.Column(db.DateTime, nullable=False)
     days = db.Column(db.Integer, nullable=False)
     house_price = db.Column(db.Integer, nullable=False)
     amount = db.Column(db.Integer, nullable=False)
