@@ -7,28 +7,17 @@ from flask import g, current_app, jsonify, request
 from ihome.utils.response_codes import RET
 from ihome import constants, db
 import os
+from alipay import AliPay
 from alipay.aop.api.AlipayClientConfig import AlipayClientConfig
-from alipay.aop.api.DefaultAlipayClient import DefaultAlipayClient
-from alipay.aop.api.FileItem import FileItem
-from alipay.aop.api.domain.AlipayTradeAppPayModel import AlipayTradeAppPayModel
-from alipay.aop.api.domain.AlipayTradePagePayModel import AlipayTradePagePayModel
-from alipay.aop.api.domain.AlipayTradePayModel import AlipayTradePayModel
-from alipay.aop.api.domain.GoodsDetail import GoodsDetail
-from alipay.aop.api.domain.SettleDetailInfo import SettleDetailInfo
-from alipay.aop.api.domain.SettleInfo import SettleInfo
-from alipay.aop.api.domain.SubMerchant import SubMerchant
-from alipay.aop.api.request.AlipayOfflineMaterialImageUploadRequest import AlipayOfflineMaterialImageUploadRequest
-from alipay.aop.api.request.AlipayTradeAppPayRequest import AlipayTradeAppPayRequest
-from alipay.aop.api.request.AlipayTradePagePayRequest import AlipayTradePagePayRequest
-from alipay.aop.api.request.AlipayTradePayRequest import AlipayTradePayRequest
-from alipay.aop.api.response.AlipayOfflineMaterialImageUploadResponse import AlipayOfflineMaterialImageUploadResponse
-from alipay.aop.api.response.AlipayTradePayResponse import AlipayTradePayResponse
 
-alipay_client_config = AlipayClientConfig()
-alipay_client_config.server_url = 'https://openapi.alipay.com/gateway.do'
-alipay_client_config.app_id = '[your app_id]'
-alipay_client_config.app_private_key = '[your app private key]'
-alipay_client_config.alipay_public_key = '[alipay public key]'
+
+
+
+# alipay_client_config = AlipayClientConfig()
+# alipay_client_config.server_url = 'https://openapi.alipay.com/gateway.do'
+# alipay_client_config.app_id = '[your app_id]'
+# alipay_client_config.app_private_key = '[your app private key]'
+# alipay_client_config.alipay_public_key = '[alipay public key]'
 
 
 @api.route("/orders/<int:order_id>/payment", methods=["POST"])
@@ -49,10 +38,10 @@ def order_pay(order_id):
 
     # 创建支付宝sdk的工具对象
     alipay_client = AliPay(
-        appid="2016081600258081",
+        appid="2016100900648657",
         app_notify_url=None,  # 默认回调url
-        app_private_key_path=os.path.join(os.path.dirname(__file__), "keys/app_private_key.pem"),  # 私钥
-        alipay_public_key_path=os.path.join(os.path.dirname(__file__), "keys/alipay_public_key.pem"),  # 支付宝的公钥，验证支付宝回传消息使用，不是你自己的公钥,
+        app_private_key_path=os.path.join(os.path.dirname(__file__), "app_private_key.pem"),  # 私钥
+        alipay_public_key_path=os.path.join(os.path.dirname(__file__), "alipay_public_key.pem"),  # 支付宝的公钥，验证支付宝回传消息使用，不是你自己的公钥,
         sign_type="RSA2",  # RSA 或者 RSA2
         debug=True  # 默认False
     )
@@ -83,8 +72,8 @@ def save_order_payment_result():
     alipay_client = AliPay(
         appid="2016081600258081",
         app_notify_url=None,  # 默认回调url
-        app_private_key_path=os.path.join(os.path.dirname(__file__), "keys/app_private_key.pem"),  # 私钥
-        alipay_public_key_path=os.path.join(os.path.dirname(__file__), "keys/alipay_public_key.pem"),
+        app_private_key_path=os.path.join(os.path.dirname(__file__), "app_private_key.pem"),  # 私钥
+        alipay_public_key_path=os.path.join(os.path.dirname(__file__), "alipay_public_key.pem"),
         # 支付宝的公钥，验证支付宝回传消息使用，不是你自己的公钥,
         sign_type="RSA2",  # RSA 或者 RSA2
         debug=True  # 默认False
