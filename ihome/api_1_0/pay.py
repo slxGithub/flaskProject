@@ -8,7 +8,7 @@ from ihome.utils.response_codes import RET
 from ihome import constants, db
 import os
 from alipay import AliPay
-from alipay.aop.api.AlipayClientConfig import AlipayClientConfig
+# from alipay.aop.api.AlipayClientConfig import AlipayClientConfig
 
 
 
