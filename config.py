@@ -2,7 +2,7 @@ import redis,datetime
 
 class Config(object):
     SECRET_KEY = "dafjdskdfja89a8*(0()&*&^&"
-    SQLALCHEMY_DATABASE_URI = "mysql+pymysql://root:mysql@127.0.0.1/flaskIhome"
+    SQLALCHEMY_DATABASE_URI = "mysql+pymysql://root:root@127.0.0.1/flaskIhome"
     SQLALCHEMY_TRACK_MODIFICATIONS = True
 
     REDIS_HOST = "127.0.0.1"

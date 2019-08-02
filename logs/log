@@ -2225,3 +2225,69 @@ INFO 2019-08-01 00:15:18,251 areas.py:25 hit redis area_info
 INFO 2019-08-01 00:15:52,862 areas.py:25 hit redis area_info
 INFO 2019-08-01 00:15:58,465 areas.py:244 hit house index info redis
 INFO 2019-08-01 00:15:58,490 areas.py:25 hit redis area_info
+INFO 2019-08-01 11:14:36,124 areas.py:244 hit house index info redis
+INFO 2019-08-01 11:14:36,128 areas.py:25 hit redis area_info
+INFO 2019-08-01 11:15:32,267 areas.py:244 hit house index info redis
+INFO 2019-08-01 11:15:32,268 areas.py:25 hit redis area_info
+INFO 2019-08-01 11:15:49,612 areas.py:244 hit house index info redis
+INFO 2019-08-01 11:15:49,617 areas.py:25 hit redis area_info
+INFO 2019-08-01 11:19:25,203 areas.py:244 hit house index info redis
+INFO 2019-08-01 11:19:25,209 areas.py:25 hit redis area_info
+INFO 2019-08-01 11:24:12,487 areas.py:244 hit house index info redis
+INFO 2019-08-01 11:24:12,490 areas.py:25 hit redis area_info
+INFO 2019-08-01 11:24:27,264 areas.py:244 hit house index info redis
+INFO 2019-08-01 11:24:27,266 areas.py:25 hit redis area_info
+INFO 2019-08-01 11:24:39,298 areas.py:244 hit house index info redis
+INFO 2019-08-01 11:24:39,302 areas.py:25 hit redis area_info
+INFO 2019-08-01 11:24:58,020 areas.py:244 hit house index info redis
+INFO 2019-08-01 11:24:58,026 areas.py:25 hit redis area_info
+INFO 2019-08-01 11:25:00,951 areas.py:25 hit redis area_info
+INFO 2019-08-01 11:25:05,165 areas.py:294 hit house info redis
+INFO 2019-08-01 11:25:15,102 areas.py:244 hit house index info redis
+INFO 2019-08-01 11:25:15,105 areas.py:25 hit redis area_info
+INFO 2019-08-01 11:25:22,598 areas.py:25 hit redis area_info
+INFO 2019-08-01 11:25:22,598 areas.py:244 hit house index info redis
+INFO 2019-08-01 11:25:32,494 areas.py:244 hit house index info redis
+INFO 2019-08-01 11:25:32,498 areas.py:25 hit redis area_info
+INFO 2019-08-01 11:25:35,116 areas.py:244 hit house index info redis
+INFO 2019-08-01 11:25:35,117 areas.py:25 hit redis area_info
+INFO 2019-08-01 11:25:45,260 areas.py:25 hit redis area_info
+INFO 2019-08-01 11:25:45,260 areas.py:244 hit house index info redis
+INFO 2019-08-01 11:25:50,625 areas.py:244 hit house index info redis
+INFO 2019-08-01 11:25:50,629 areas.py:25 hit redis area_info
+INFO 2019-08-01 11:25:59,130 areas.py:244 hit house index info redis
+INFO 2019-08-01 11:25:59,133 areas.py:25 hit redis area_info
+INFO 2019-08-01 16:42:56,390 areas.py:25 hit redis area_info
+INFO 2019-08-01 16:42:56,390 areas.py:244 hit house index info redis
+INFO 2019-08-02 16:18:58,117 areas.py:25 hit redis area_info
+INFO 2019-08-02 16:18:58,118 areas.py:244 hit house index info redis
+INFO 2019-08-02 16:21:22,354 areas.py:244 hit house index info redis
+INFO 2019-08-02 16:21:22,357 areas.py:25 hit redis area_info
+INFO 2019-08-02 16:21:23,344 areas.py:244 hit house index info redis
+INFO 2019-08-02 16:21:23,347 areas.py:25 hit redis area_info
+INFO 2019-08-02 16:21:23,692 areas.py:244 hit house index info redis
+INFO 2019-08-02 16:21:23,695 areas.py:25 hit redis area_info
+INFO 2019-08-02 16:21:23,991 areas.py:244 hit house index info redis
+INFO 2019-08-02 16:21:23,991 areas.py:25 hit redis area_info
+INFO 2019-08-02 16:21:24,244 areas.py:244 hit house index info redis
+INFO 2019-08-02 16:21:24,249 areas.py:25 hit redis area_info
+INFO 2019-08-02 16:24:08,037 areas.py:244 hit house index info redis
+INFO 2019-08-02 16:24:08,042 areas.py:25 hit redis area_info
+INFO 2019-08-02 16:24:15,079 areas.py:244 hit house index info redis
+INFO 2019-08-02 16:24:15,082 areas.py:25 hit redis area_info
+INFO 2019-08-02 16:24:15,512 areas.py:244 hit house index info redis
+INFO 2019-08-02 16:24:15,514 areas.py:25 hit redis area_info
+INFO 2019-08-02 16:24:22,784 areas.py:244 hit house index info redis
+INFO 2019-08-02 16:24:22,786 areas.py:25 hit redis area_info
+INFO 2019-08-02 16:24:49,090 areas.py:244 hit house index info redis
+INFO 2019-08-02 16:24:49,093 areas.py:25 hit redis area_info
+INFO 2019-08-02 16:24:53,339 areas.py:244 hit house index info redis
+INFO 2019-08-02 16:24:53,342 areas.py:25 hit redis area_info
+INFO 2019-08-02 16:24:53,816 areas.py:244 hit house index info redis
+INFO 2019-08-02 16:24:53,819 areas.py:25 hit redis area_info
+INFO 2019-08-02 16:24:57,237 areas.py:244 hit house index info redis
+INFO 2019-08-02 16:24:57,237 areas.py:25 hit redis area_info
+INFO 2019-08-02 16:24:57,943 areas.py:244 hit house index info redis
+INFO 2019-08-02 16:24:57,946 areas.py:25 hit redis area_info
+INFO 2019-08-02 16:25:08,714 areas.py:244 hit house index info redis
+INFO 2019-08-02 16:25:08,715 areas.py:25 hit redis area_info
